@@ -1,11 +1,10 @@
-# lichess_game_analysis
-Lichess Database Game Analysis
+LICHESS DATABASE GAME ANALYSIS
 
-Overview
+OVERVIEW
 
 This repository provides a tool to extract and analyze chess games from the Lichess database for a specific time control. It processes PGN files, extracts key features from each game, and generates a CSV file containing the analyzed data.
 
-Features
+FEATURES
 
 Extracts all games of a specified time control (e.g., Bullet, Blitz, Rapid, Classical)
 
@@ -27,7 +26,7 @@ Result and player ratings
 
 Outputs a structured CSV file for further analysis
 
-Requirements
+REQUIREMENTS
 
 Python 3.7+
 
@@ -35,7 +34,7 @@ Required Python libraries:
 
 pip install python-chess pandas tqdm
 
-Usage
+USAGE
 
 Download the Lichess PGN database file for the desired time period.
 
@@ -45,7 +44,7 @@ python analyze_lichess.py --pgn lichess_games.pgn --time_control blitz --output 
 
 The script will process the games and generate results.csv with extracted features.
 
-CSV Output Format
+CSV OUTPUT FORMAT
 
 The generated CSV file contains the following columns:
 
@@ -79,7 +78,7 @@ Mistakes White: Count of mistakes by White
 
 Mistakes Black: Count of mistakes by Black
 
-Example Output
+EXAMPLE OUTPUT
 
 Game ID
 
@@ -125,7 +124,7 @@ Sicilian Defense
 
 45
 
-To-Do
+TO-DO
 
 Add support for additional feature extraction
 
@@ -133,11 +132,11 @@ Optimize processing for large datasets
 
 Provide visualization tools for analyzed data
 
-Contributions
+CONTRIBUTIONS
 
 Contributions are welcome! Feel free to submit a pull request or open an issue if you have suggestions or improvements.
 
-License
+LICENSE
 
 MIT License
 
